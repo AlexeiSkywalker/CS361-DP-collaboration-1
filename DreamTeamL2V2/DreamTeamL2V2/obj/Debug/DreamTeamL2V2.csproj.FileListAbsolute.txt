@@ -8,3 +8,6 @@ D:\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.
 D:\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.csproj.GenerateResource.Cache
 D:\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.exe
 D:\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.pdb
+D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\bin\Debug\DreamTeamL2V2.exe.config
+D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.exe
+D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.pdb
