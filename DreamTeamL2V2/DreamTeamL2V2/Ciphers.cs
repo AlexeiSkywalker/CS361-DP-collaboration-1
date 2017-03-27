@@ -185,6 +185,11 @@ namespace DreamTeamL2V2
                     resArray[i] = cryptor.Decrypt(textArray[i], key);
                 return String.Join("", resArray);
             }
+            catch (FormatException)
+            {
+                MessageBox.Show("Некорректные входные данные для дешифрования: входная строка не является шифртекстом");
+                return "";
+            }
             catch (Exception e)
             {
                 MessageBox.Show("Unexpected error: " + e.Message);
@@ -204,15 +209,15 @@ namespace DreamTeamL2V2
                 File.WriteAllText(fileName, cipherText);
                 MessageBox.Show("The file has been encrypted");
             }
-            catch (UnauthorizedAccessException e)
+            catch (UnauthorizedAccessException)
             {
                 MessageBox.Show("Access error");
             }
-            catch (DirectoryNotFoundException e)
+            catch (DirectoryNotFoundException)
             {
                 MessageBox.Show("Didectory not found");
             }
-            catch(FileNotFoundException e)
+            catch(FileNotFoundException)
             {
                 MessageBox.Show("File not found");
             }
@@ -230,15 +235,15 @@ namespace DreamTeamL2V2
                 File.WriteAllText(fileName, originalText);
                 MessageBox.Show("The file has been decrypted");
             }
-            catch (UnauthorizedAccessException e)
+            catch (UnauthorizedAccessException)
             {
                 MessageBox.Show("Access error");
             }
-            catch (DirectoryNotFoundException e)
+            catch (DirectoryNotFoundException)
             {
                 MessageBox.Show("Didectory not found");
             }
-            catch (FileNotFoundException e)
+            catch (FileNotFoundException)
             {
                 MessageBox.Show("File not found");
             }
