@@ -11,3 +11,9 @@ D:\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.
 D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\bin\Debug\DreamTeamL2V2.exe.config
 D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.exe
 D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.pdb
+D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\bin\Debug\DreamTeamL2V2.exe
+D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\bin\Debug\DreamTeamL2V2.pdb
+D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.csprojResolveAssemblyReference.cache
+D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.Form1.resources
+D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.Properties.Resources.resources
+D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.csproj.GenerateResource.Cache
