@@ -32,7 +32,7 @@ namespace DreamTeamL2V2
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            Debug.Assert(int.TryParse(textBox1.Text, out n));
+            Debug.Assert(int.TryParse(textBox1.Text, out n), "Некорректный ввод числа рабочих");
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
