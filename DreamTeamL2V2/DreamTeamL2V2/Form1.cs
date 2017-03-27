@@ -60,6 +60,16 @@ namespace DreamTeamL2V2
             plainText = textBox3.Text;
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string filePath = "";
+            OpenFileDialog ofd = new OpenFileDialog();
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                filePath = ofd.FileName;
+            }
 
+            // Лёша, вперед, работай с файлом :D
+        }
     }
 }
