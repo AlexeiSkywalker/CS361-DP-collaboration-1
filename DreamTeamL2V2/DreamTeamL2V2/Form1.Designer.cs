@@ -139,6 +139,8 @@
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox4.Enabled = false;
             this.textBox4.Location = new System.Drawing.Point(315, 201);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
