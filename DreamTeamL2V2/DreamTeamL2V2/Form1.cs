@@ -14,7 +14,7 @@ namespace DreamTeamL2V2
     public partial class Form1 : Form
     {
         // число "рабочих"
-        private int n;  
+        private int n = 2;  
 
         // ключ для шифрования/дешифрования
         private string key;
@@ -23,7 +23,9 @@ namespace DreamTeamL2V2
         private string cipherType;
 
         // текст для шифрования
-        private string plainText;   
+        private string plainText;
+
+        private string fileName = "";
 
         public Form1()
         {
@@ -47,12 +49,36 @@ namespace DreamTeamL2V2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Вызов шифрования");
+            CipherType c;
+            if (cipherType == "DES")
+                c = CipherType.DES;
+            else
+                c = CipherType.AES;
+            if (fileName != "")
+            {
+                FileCryptor.EncryptFile(fileName, key, c, n);
+                fileName = "";
+                label4.Text = "Файл не выбран";
+            }
+            else
+                textBox4.Text = ParallelCipher.Encrypt(plainText, key, c, n);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Вызов дешифрования");
+            CipherType c;
+            if (cipherType == "DES")
+                c = CipherType.DES;
+            else
+                c = CipherType.AES;
+            if (fileName != "")
+            {
+                FileCryptor.DecryptFile(fileName, key, c, n);
+                fileName = "";
+                label4.Text = "Файл не выбран";
+            }
+            else
+                textBox4.Text = ParallelCipher.Decrypt(plainText, key, c, n);
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -62,14 +88,12 @@ namespace DreamTeamL2V2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string filePath = "";
             OpenFileDialog ofd = new OpenFileDialog();
             if (ofd.ShowDialog() == DialogResult.OK)
             {
-                filePath = ofd.FileName;
+                fileName = ofd.FileName;
             }
-
-            // Лёша, вперед, работай с файлом :D
+            label4.Text = fileName;
         }
     }
 }

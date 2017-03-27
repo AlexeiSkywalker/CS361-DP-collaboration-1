@@ -17,3 +17,12 @@ D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\
 D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.Form1.resources
 D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.Properties.Resources.resources
 D:\MMCS\Patterns\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.csproj.GenerateResource.Cache
+C:\Users\Alexey Skywalker\Documents\Visual Studio 2015\Projects\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\bin\Debug\DreamTeamL2V2.exe.config
+C:\Users\Alexey Skywalker\Documents\Visual Studio 2015\Projects\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.exe
+C:\Users\Alexey Skywalker\Documents\Visual Studio 2015\Projects\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.pdb
+C:\Users\Alexey Skywalker\Documents\Visual Studio 2015\Projects\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\bin\Debug\DreamTeamL2V2.exe
+C:\Users\Alexey Skywalker\Documents\Visual Studio 2015\Projects\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\bin\Debug\DreamTeamL2V2.pdb
+C:\Users\Alexey Skywalker\Documents\Visual Studio 2015\Projects\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.csprojResolveAssemblyReference.cache
+C:\Users\Alexey Skywalker\Documents\Visual Studio 2015\Projects\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.Form1.resources
+C:\Users\Alexey Skywalker\Documents\Visual Studio 2015\Projects\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.Properties.Resources.resources
+C:\Users\Alexey Skywalker\Documents\Visual Studio 2015\Projects\CS361-DP-collaboration-1\DreamTeamL2V2\DreamTeamL2V2\obj\Debug\DreamTeamL2V2.csproj.GenerateResource.Cache
