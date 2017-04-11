@@ -2,6 +2,7 @@
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
+using System.Diagnostics;
 using System.Security.Cryptography;
 
 
@@ -122,11 +123,8 @@ namespace DreamTeamL2V2
         {
             try
             {
-                int amount;
-                if (plainText.Length <= 8)
-                    amount = 1;
-                else
-                    amount = n;
+                int amount = n;
+                
                 string[] textArray = new string[amount];
                 int chunkSize = plainText.Length / amount;
                 int pos = 0;
@@ -159,11 +157,8 @@ namespace DreamTeamL2V2
         {
             try
             {
-                int amount;
-                if (cipherText.Length <= 8)
-                    amount = 1;
-                else
-                    amount = n;
+                int amount = n;
+                
                 string[] textArray = new string[amount];
                 int chunkSize = cipherText.Length / amount;
                 int pos = 0;
@@ -251,6 +246,25 @@ namespace DreamTeamL2V2
             {
                 MessageBox.Show("Unexpected error: " + e.Message);
             }
+        }
+
+
+    }
+
+    public class Tests
+    {
+        public static void runTests()
+        {
+            string key = "666";
+            string plainText = "attack at down";
+            CryptorAES aes = new CryptorAES();
+            CryptorDES des = new CryptorDES();
+            string cipherText = aes.Encrypt(plainText, key);
+            string str = aes.Decrypt(cipherText, key);
+            Debug.Assert(str == plainText);
+            cipherText = des.Encrypt(plainText, key);
+            str = des.Decrypt(cipherText, key);
+            Debug.Assert(str == plainText);
         }
     }
 }

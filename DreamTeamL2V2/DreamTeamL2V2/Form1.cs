@@ -27,6 +27,7 @@ namespace DreamTeamL2V2
         public Form1()
         {
             InitializeComponent();
+            Tests.runTests();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
